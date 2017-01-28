@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursojavaestandar;
+package Prueba;
+import Clase3.Empleado;
+
 
 /**
  *
  * @author educacionit
  */
-public class CursoJavaEstandar {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Programa {
+     public static void main(String[] args) {
+        Empleado e1 = new Empleado("Juan", "Perez", "10", "300");
+       
     }
-    
 }
